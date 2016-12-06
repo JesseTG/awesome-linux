@@ -40,6 +40,8 @@
     * [KDE-based](#kde-based)
     * [Not based on any desktop environment](#not-based-on-any-desktop-environment)
     * [Distro-based Package Management Tools](#distro-based-package-management-tools)
+* [Kernel Features](#kernel-features)
+  * [Official Documentation](#official-documentation)
 * [Useful Websites](#useful-websites)
 * [Related Awesome Lists](#related-awesome-lists)
 * [License](#license)
@@ -349,6 +351,16 @@ To add new content to this section, please refer to the `CONTRIBUTING.md` file.
 * [YumEx](https://fedorahosted.org/yumex/) (Fedora) - YumEx is a GUI for the dnf package manager, it is written in Python and is using the PyGTK toolkit for GUI components.
 * [Yaourt](https://wiki.archlinux.org/index.php/Yaourt) (Arch) - Yaourt (**Y**et **A**n**O**ther **U**ser **R**epository Tool) is a wrapper for pacman which adds automated access to the AUR using the same syntax as pacman.
 * [Aura](https://github.com/aurapm/aura) (Arch) - A secure, multilingual package manager for Arch Linux and the AUR.
+
+## Kernel Features
+
+This section describes resources for the parts of the Linux kernel that are relevant in some way to user applications.  Nothing here requires kernel programming experience.
+
+### Official Documentation
+
+- [bad_memory.txt](https://github.com/torvalds/linux/blob/master/Documentation/bad_memory.txt) - How to work around RAM that's partially damaged.
+- [binfmt_misc.txt](https://github.com/torvalds/linux/blob/master/Documentation/binfmt_misc.txt) - Tell the kernel how to run binaries in any format.
+- [kernel-parameters.txt](https://github.com/torvalds/linux/blob/master/Documentation/kernel-parameters.txt) - The Linux kernel takes command-line arguments, too.  This document describes them.
 
 ## Useful Websites
 
